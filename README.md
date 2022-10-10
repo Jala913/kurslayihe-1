@@ -1,1 +1,0 @@
-# kurslayihe-1
