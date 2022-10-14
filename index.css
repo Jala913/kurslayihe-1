@@ -32,11 +32,15 @@
 
 .form-card {
   margin-right: 5rem;
+  padding-bottom: 89px;
+}
+
+.form-card h3 {
+  padding-bottom: 89px;
 }
 
 .section-header {
   font-size: 3rem;
-  margin
 }
 
 .Whatdowelearn {
@@ -44,6 +48,8 @@
   font-family: 'Roboto Slab';
   font-weight: 700;
   color: #000000;
+  padding-bottom: 50px;
+  padding-top: 180px;
 }
 
 .m-60 {
@@ -53,16 +59,38 @@
 .flex {
   display: flex;
   align-items: center;
+  padding-left: 70px;
 }
 
 .date {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.format {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 60px;
+}
+
+.whatdowe {
+  position: relative;
+  bottom: 30%;
+  padding-left: 60px;
 }
 
 .Whatdowelearn-list li {
   font-family: 'Roboto';
   font-size: 1.25rem;
   padding-bottom: 10px;
+}
+
+.araz {
+  position: relative;
+  bottom: 90px;
 }
 
 .myBody {
@@ -153,130 +181,10 @@
   display: flex;
 }
 
-/* course-date section start */
-
-.course-date-container {
-  background: #9DC9C8;
-
-  padding-left: 8vw;
-  padding-top: 12.3vw;
-  padding-bottom: 12vw;
-}
-
-.course-date-header {
-  margin-bottom: 3.7vw;
-}
-
-.course-date-main {
-  margin-bottom: 4.8vw;
-}
-
-.course-date-main p {
-  font-size: 1.7vw;
-  line-height: 101.38%;
-}
-
-.course-date-main span {
-  display: block;
-
-  font-size: 5.5vw;
-  line-height: 101.38%;
-
-  color: #000000;
-}
-
-.course-date-footer {
-  display: flex;
-}
-
-.course-date-footer-box {
-  margin-right: 4.8vw;
-  width: 20.4vw;
-}
-
-.course-date-footer-box p span {
-  display: block;
-
-  margin-bottom: 0.8vw;
-
-  font-size: 1.6vw;
-  line-height: 101.38%;
-
-  color: #000000;
-}
-
-.course-date-footer-box p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2vw;
-  line-height: 101.38%;
-
-  color: #000000;
-
-}
-
-/* course-date section end */
-/* main section end */
-
-/* footer section start */
-.footer-container {
-  background-color: #000000;
-  padding-left: 8vw;
-  padding-top: 7vw;
-  padding-bottom: 5vw;
-}
-
-.footer-top {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10vw;
-}
-
-.footer-logo-social .logo {
-  margin-bottom: 2vw;
-}
-
-.footer-logo-social .logo img {
-  width: 8vw;
-}
 
 
-.footer-logo-social .social a img {
-  width: 2.3vw;
-  margin-right: 1.7vw;
-}
 
-.contact {
-  padding-right: 13vw;
-}
 
-.contact p img {
-  width: 1.8vw;
-  margin-right: 2vw;
-}
-
-.contact p {
-  padding-bottom: 1.6vw;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.6vw;
-  line-height: 101.38%;
-
-  color: #FFFFFF;
-
-}
-
-.corp {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2vw;
-  line-height: 101.38%;
-
-  color: #FFFFFF;
-}
-
-/* footer section end  */
 @media (min-width: 991px) {
 
 
@@ -1152,4 +1060,8 @@ h4 {
     width: 10.5vw;
     font-size: 1.3vw;
   }
+}
+
+.form-card h3 {
+  padding-bottom: 9px;
 }
