@@ -32,10 +32,16 @@
 
 .form-card {
   margin-right: 5rem;
+  padding-bottom: 89px;
+}
+.form-card h3{
+  padding-bottom: 9px;
 }
 
 .section-header {
   font-size: 3rem;
+  margin-bottom: 89px;
+  margin-top: 59px;
 }
 
 .Whatdowelearn {
@@ -43,6 +49,8 @@
   font-family: 'Roboto Slab';
   font-weight: 700;
   color: #000000;
+  padding-bottom: 50px;
+  padding-top: 180px;
 }
 
 .m-60 {
