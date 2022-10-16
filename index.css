@@ -7,17 +7,13 @@
   display: grid;
   grid-gap: 3rem;
 }
-
 .date-image {
   margin-right: 9rem;
 }
-
-
 .employmentForm {
   display: flex;
   flex-direction: row;
 }
-
 .form-header {
   font-family: 'Roboto';
   font-weight: 700;
@@ -25,24 +21,19 @@
   color: #1E4681;
   margin-bottom: 0;
 }
-
 .form-article {
   max-width: 22ch;
 }
-
 .form-card {
   margin-right: 5rem;
   padding-bottom: 89px;
 }
-
 .form-card h3 {
   padding-bottom: 89px;
 }
-
 .section-header {
   font-size: 3rem;
 }
-
 .Whatdowelearn {
   font-size: 2.5rem;
   font-family: 'Roboto Slab';
@@ -51,53 +42,43 @@
   padding-bottom: 50px;
   padding-top: 180px;
 }
-
 .m-60 {
   max-width: 60%;
 }
-
 .flex {
   display: flex;
   align-items: center;
   padding-left: 70px;
 }
-
 .date {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
 }
-
 .format {
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding-left: 60px;
 }
-
 .whatdowe {
   position: relative;
   bottom: 30%;
   padding-left: 60px;
 }
-
 .Whatdowelearn-list li {
   font-family: 'Roboto';
   font-size: 1.25rem;
   padding-bottom: 10px;
 }
-
 .araz {
   position: relative;
   bottom: 90px;
 }
-
 .myBody {
   padding: 5em 0em 3em;
   background: #EFEFEF;
 }
-
 .myBody .myHead2 {
   width: 987px;
   height: 93px;
@@ -110,7 +91,6 @@
   margin-left: 122px;
   margin-bottom: 35px;
 }
-
 .myBody .box {
   width: 791px;
   height: 451px;
@@ -123,7 +103,6 @@
   background-color: white;
   margin-bottom: 100px;
 }
-
 .myBody .box .Up {
   width: 700px;
   height: 203px;
@@ -138,7 +117,6 @@
   padding-top: 20px;
   margin-bottom: 15px;
 }
-
 .myBody .box .Down {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,17 +125,14 @@
   -ms-flex-align: center;
   align-items: center;
 }
-
 .myBody .box .Down .myleft {
   width: 190px;
   height: 169px;
   left: 151px;
 }
-
 .myBody .box .Down .myright {
   margin-left: 30px;
 }
-
 .myBody .box .Down .myright p {
   width: 353px;
   height: 59px;
@@ -170,42 +145,30 @@
   color: #000000;
   margin-bottom: -5px;
 }
-
 .myBody .box .Down .myright img {
   width: 32px;
   height: 31px;
   left: 371px;
 }
-
 .data {
   display: flex;
 }
-
-
-
-
-
 @media (min-width: 991px) {
-
-
   /* araz */
   .program-course {
     margin-top: 13.88vw;
     margin-bottom: 3.47vw;
   }
-
   .program-course .head {
     margin-left: 8.4vw;
     margin-bottom: 6.94vw;
   }
-
   .program-course .head h1 {
     font-size: 3.819vw;
     line-height: 3.87vw;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
   }
-
   .program-course .myitems {
     margin-left: 3.944vw;
     display: -webkit-box;
@@ -214,28 +177,23 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   .program-course .myitems .item {
     border-radius: 30%;
     width: 27.70vw;
     margin: 0 1.38vw;
   }
-
   .program-course .myitems .item .box {
     border-radius: 2.083vw;
     margin-bottom: 2.083vw;
   }
-
   .program-course .myitems .item .top {
     -webkit-box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
     box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
     border-radius: 2.083vw;
   }
-
   .program-course .myitems .item .bottom {
     padding: 0.694vw 1.3888vw;
   }
-
   .program-course .myitems .item .bottom h3 {
     font-size: 2.083vw;
     line-height: 2.70vw;
@@ -243,45 +201,35 @@
     font-family: 'Roboto', sans-serif;
     margin-bottom: 2.083vw;
   }
-
   .program-course img {
     width: 27.708vw;
     height: 11.11vw;
   }
-
   .program-course .myitems .item .bottom span {
     font-weight: 400;
     font-size: 1.736vw;
     line-height: 2.256vw;
     font-family: 'Roboto Slab', serif;
   }
-
   .program-course .myitems .item .bottom .first {
     margin-bottom: 0.694vw;
     line-height: 2.02vw;
   }
-
   /* araz */
 }
-
 @media (min-width: 320px) and (max-width: 991px) {
-
   /* jale */
   .date-image {
     display: none;
   }
-
   .flex {
     display: flex;
     flex-wrap: wrap;
   }
-
   .employmentForm {
     display: flex;
     flex-wrap: wrap;
   }
-
-
   /* jale */
   /* araz */
   .program-course {
@@ -289,20 +237,16 @@
     margin-bottom: 3.47vw;
     /* margin-left:14vw ; */
     width: 100vw;
-
   }
-
   span {
     width: 43.15vw;
   }
-
   .program-course .head {
     width: 107.3vw;
     height: 11vw;
     margin-left: 8.62vw;
     margin-bottom: 8.88vw;
   }
-
   .program-course .head h1 {
     font-size: 6.93vw;
     line-height: 101.38%;
@@ -310,7 +254,6 @@
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
   }
-
   .program-course .myitems {
     margin-left: 25vw;
     display: -webkit-box;
@@ -319,28 +262,21 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   .program-course .myitems .item {
     border-radius: 30%;
-
   }
-
   .program-course .myitems .item .box {
     border-radius: 2.083vw;
     margin-bottom: 6.083vw;
   }
-
   .program-course .myitems .item .top {
     -webkit-box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
     box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
     border-radius: 4.4vw;
-
   }
-
   .program-course .myitems .item .bottom {
     padding: 0.694vw 1.3888vw;
   }
-
   .program-course .myitems .item .bottom h3 {
     font-size: 3.73vw;
     font-weight: 700;
@@ -349,7 +285,6 @@
     width: 55vw;
     height: 4.611vw;
   }
-
   .program-course .myitems .item .bottom span {
     font-weight: 400;
     /* width: 43.15vw; */
@@ -357,13 +292,10 @@
     /* line-height:7.45vw; */
     font-family: 'Roboto Slab', serif;
   }
-
   .program-course .myitems .item .bottom .first {
     margin-bottom: 3vw;
     line-height: 3.44vw;
-
   }
-
   .myBody {
     padding: 10vw 0 3em;
     background: #EFEFEF;
@@ -372,7 +304,6 @@
     /* display: flex;
           align-items: center; */
   }
-
   .myBody .myHead2 {
     width: 68.5vw;
     height: 18.4vw;
@@ -385,7 +316,6 @@
     margin-left: 8.4vw;
     margin-bottom: 2.93vw;
   }
-
   .myBody .box {
     width: 82.13vw;
     height: 66.13vw;
@@ -398,7 +328,6 @@
     background-color: white;
     /* margin-bottom: 14.13vw; */
   }
-
   .myBody .box .Up {
     width: 70.93vw;
     height: 29.6vw;
@@ -415,7 +344,6 @@
     margin-left: 2vw;
     margin-top: 2vw;
   }
-
   .myBody .box .Down {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -424,13 +352,11 @@
     -ms-flex-align: center;
     align-items: center;
   }
-
   .myBody .box .Down .myleft {
     width: 13.19vw;
     height: 11.7vw;
     left: 10.4vw;
   }
-
   .myBody .box .Down .myleft img {
     width: 24.33vw;
     height: 22.4vw;
@@ -438,11 +364,9 @@
     /* margin-top:5.73vw; */
     margin-bottom: 3.46vw;
   }
-
   .myBody .box .Down .myright {
     margin-left: 2vw;
   }
-
   .myBody .box .Down .myright p {
     width: 43.864vw;
     height: 8.728vw;
@@ -457,159 +381,125 @@
     margin-top: 10.416vw;
     margin-left: 9vw;
   }
-
   .myBody .box .Down .myright img {
     width: 3.976vw;
     height: 4.586vw;
     /* left: 25.7vw; */
     margin-left: 9vw;
   }
-
   /* araz */
 }
-
 .Coursestart {
   height: 780px;
   width: 1501px;
   background-color: #9DC9C8;
   margin-top: -18px;
-
 }
-
 /*Jeikhun*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #FFFFFF;
   font-family: 'Roboto';
   color: #000000;
 }
-
 h1 {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
   line-height: 101.38%;
 }
-
 h2 {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
   line-height: 101.38%;
 }
-
 h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   line-height: 101.38%;
 }
-
 h4 {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
   line-height: 130%;
 }
-
 /* Mobile */
 @media (min-width: 320px) and (max-width: 991px) {
   h1 {
     font-size: 10vw;
   }
-
   h2 {
     font-size: 7vw;
   }
-
   h3 {
     font-size: 4vw;
   }
-
   h4 {
     font-size: 3.2vw;
   }
-
   .main-container {
     padding-top: 5vw;
     padding-left: 10vw;
     margin-bottom: 2vw;
   }
-
   .main-logo {
     margin-bottom: 12vw;
   }
-
   .main-logo img {
     width: 14vw;
   }
-
   .main-info {
     display: flex;
   }
-
   .main-info-content {
     margin-right: 7vw;
   }
-
   .main-info-content p {
     font-size: 2.5vw;
   }
-
-
   .main-info-content img {
     width: 2.7vw;
     margin-right: 1vw;
   }
-
   .movie {
     margin-bottom: 21vw;
   }
-
   .movie-container {
     padding-left: 10vw;
-
   }
-
   .movie-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-bottom: 10.5vw;
   }
-
   .movie-main-content h1 {
     margin-bottom: 3.5vw;
   }
-
   .movie-main-content p {
     font-size: 2.6vw;
     width: 56vw;
   }
-
   .movie-main-img {
     margin-right: 8.5vw;
   }
-
   .movie-main-img img {
     width: 38vw;
   }
-
-
   .movie-main-comment {
     width: 60vw;
     height: 25vw;
     color: #FFFFFF;
     background: #1E4681;
     border-radius: 0.6vw;
-
   }
-
   .content {
     font-family: Roboto Slab;
     font-style: normal;
@@ -618,178 +508,138 @@ h4 {
     padding: 2.4vw 3.2vw 0 3.2vw;
     font-size: 2.7vw;
   }
-
   .author {
     font-size: 2.7vw;
     line-height: 130%;
     padding-right: 3vw;
     margin-top: 2vw;
-
     text-align: right;
   }
-
   .course {
     margin-bottom: 12vw;
   }
-
   .course-container {
     padding-left: 10vw;
   }
-
   .course-header {
     margin-bottom: 5.5vw;
   }
-
-
   .course-main-content {
     width: 82vw;
     margin-bottom: 4.2vw;
   }
-
   .course-main-content p {
     font-size: 3.2vw;
   }
-
   .course-main-content p.course-main-content-first {
     margin-bottom: 5.5vw;
   }
-
   .course-main-img {
     display: flex;
     justify-content: center;
     padding-right: 10vw;
     margin-bottom: 12vw;
   }
-
   .cameraman {
     width: 46vw;
   }
-
   .course-footer-img {
     display: none;
   }
-
   .course-footer-content {
     display: flex;
     flex-wrap: wrap;
   }
-
   .course-footer-content-box {
     margin-bottom: 9vw;
     margin-right: 48px;
   }
-
   .course-footer-content-box h4 {
     margin-bottom: 0.2vw;
   }
-
   .course-footer-content-box p {
     width: 23vw;
     font-size: 2.6vw;
     padding-right: 2vw;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1279px) {
   h1 {
     font-size: 5.5vw;
   }
-
   h2 {
     font-size: 3.8vw;
   }
-
   h3 {
     font-size: 2vw;
   }
-
   h4 {
     font-size: 1.8vw;
   }
-
   .main-container {
     padding-top: 2.5vw;
     padding-left: 8vw;
     margin-bottom: 2vw;
   }
-
   .main-logo {
     margin-bottom: 7vw;
   }
-
   .main-logo img {
     width: 8vw;
   }
-
   .main-info {
     display: flex;
   }
-
   .main-info-content {
     margin-right: 3vw;
   }
-
   .main-info-content p {
     font-size: 1.5vw;
   }
-
-
   .main-info-content img {
     width: 1.7vw;
     margin-right: 1vw;
   }
-
   .movie {
     margin-bottom: 8vw;
   }
-
   .movie-container {
     padding-left: 8vw;
     padding-left: 170px;
   }
-
   .movie-main {
     display: flex;
     margin-bottom: 6vw;
   }
-
   .movie-main-content {
     margin-right: 10vw;
   }
-
   .movie-main-content h1 {
     width: 44vw;
     margin-bottom: 3vw;
   }
-
   .movie-main-content p {
     font-size: 1.5vw;
     width: 31vw;
   }
-
   .movie-main-img {
     margin-right: 17vw;
   }
-
   .movie-main-img img {
     width: 22vw;
   }
-
   .movie-main {
     display: flex;
     justify-content: center;
     padding-right: 15vw;
   }
-
   .movie-main-comment {
     width: 34vw;
     height: 14vw;
     color: #FFFFFF;
     background: #1E4681;
     border-radius: 0.3vw;
-
   }
-
   .content {
     font-family: Roboto Slab;
     font-style: normal;
@@ -798,184 +648,143 @@ h4 {
     padding: 1.4vw 1.5vw 0 2vw;
     font-size: 1.7vw;
   }
-
   .author {
     font-size: 1.4vw;
     line-height: 130%;
     padding-right: 1.2vw;
     margin-top: 0.4vw;
-
     text-align: right;
   }
-
   .course {
     margin-bottom: 12vw;
   }
-
   .course-container {
     padding-left: 8vw;
   }
-
   .course-header {
     margin-bottom: 5.5vw;
   }
-
   .course-main {
     display: flex;
     margin-bottom: 5.2vw;
   }
-
   .course-main-content {
     width: 46vw;
     margin-right: 14vw;
   }
-
   .course-main-content p {
     font-size: 1.7vw;
   }
-
   .course-main-content p.course-main-content-first {
     margin-bottom: 2.8vw;
   }
-
   .course-main-img {
     display: flex;
     justify-content: center;
     padding-right: 10vw;
   }
-
   .cameraman {
     width: 21.8vw;
   }
-
   .course-footer-container {
     display: flex;
   }
-
   .course-footer-img {
     width: 16vw;
     margin-right: 13vw;
   }
-
   .course-footer-content {
     display: flex;
     align-items: center;
   }
-
   .course-footer-content-box {
     margin-right: 6.6vw;
   }
-
   .course-footer-content-box h4 {
     margin-bottom: 0.5vw;
   }
-
   .course-footer-content-box p {
     width: 10.5vw;
     font-size: 1.3vw;
   }
 }
-
 @media (min-width: 1280px) {
   h1 {
     font-size: 5.5vw;
   }
-
   h2 {
     font-size: 3.8vw;
   }
-
   h3 {
     font-size: 2vw;
   }
-
   h4 {
     font-size: 1.8vw;
   }
-
   .main-container {
     padding-top: 2.5vw;
     padding-left: 8vw;
     margin-bottom: 2vw;
   }
-
   .main-logo {
     margin-bottom: 7vw;
   }
-
   .main-logo img {
     width: 8vw;
   }
-
   .main-info {
     display: flex;
   }
-
   .main-info-content {
     margin-right: 3vw;
   }
-
   .main-info-content p {
     font-size: 1.5vw;
   }
-
-
   .main-info-content img {
     width: 1.7vw;
     margin-right: 1vw;
   }
-
   .movie {
     margin-bottom: 8vw;
   }
-
   .movie-container {
     padding-left: 8vw;
     padding-left: 240px;
   }
-
   .movie-main {
     display: flex;
     margin-bottom: 6vw;
   }
-
   .movie-main-content {
     margin-right: 10vw;
   }
-
   .movie-main-content h1 {
     width: 44vw;
     margin-bottom: 3vw;
   }
-
   .movie-main-content p {
     font-size: 1.5vw;
     width: 31vw;
   }
-
   .movie-main-img {
     margin-right: 17vw;
   }
-
   .movie-main-img img {
     width: 22vw;
   }
-
   .movie-main {
     display: flex;
     justify-content: center;
     padding-right: 15vw;
   }
-
   .movie-main-comment {
     width: 34vw;
     height: 14vw;
     color: #FFFFFF;
     background: #1E4681;
     border-radius: 0.3vw;
-
   }
-
   .content {
     font-family: Roboto Slab;
     font-style: normal;
@@ -984,84 +793,66 @@ h4 {
     padding: 1.4vw 1.5vw 0 2vw;
     font-size: 1.7vw;
   }
-
   .author {
     font-size: 1.4vw;
     line-height: 130%;
     padding-right: 1.2vw;
     margin-top: 0.4vw;
-
     text-align: right;
   }
-
   .course {
     margin-bottom: 12vw;
   }
-
   .course-container {
     padding-left: 8vw;
   }
-
   .course-header {
     margin-bottom: 5.5vw;
   }
-
   .course-main {
     display: flex;
     margin-bottom: 5.2vw;
   }
-
   .course-main-content {
     width: 46vw;
     margin-right: 14vw;
   }
-
   .course-main-content p {
     font-size: 1.7vw;
   }
-
   .course-main-content p.course-main-content-first {
     margin-bottom: 2.8vw;
   }
-
   .course-main-img {
     display: flex;
     justify-content: center;
     padding-right: 10vw;
   }
-
   .cameraman {
     width: 21.8vw;
   }
-
   .course-footer-container {
     display: flex;
   }
-
   .course-footer-img {
     width: 16vw;
     margin-right: 13vw;
   }
-
   .course-footer-content {
     display: flex;
     align-items: center;
   }
-
   .course-footer-content-box {
     margin-right: 6.6vw;
   }
-
   .course-footer-content-box h4 {
     margin-bottom: 0.5vw;
   }
-
   .course-footer-content-box p {
     width: 10.5vw;
     font-size: 1.3vw;
   }
 }
-
 .form-card h3 {
   padding-bottom: 9px;
 }
